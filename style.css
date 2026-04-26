@@ -261,3 +261,57 @@ footer {
   background: #e0e7ff;
   color: #1e3a8a;
 }
+
+.theme-toggle {
+  background: white;
+  color: #111827;
+  border: none;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: #e5e7eb;
+}
+
+/* DARK THEME */
+.dark-theme {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.dark-theme header {
+  background: linear-gradient(135deg, #020617, #172554);
+}
+
+.dark-theme .section h2,
+.dark-theme .card h3 {
+  color: #f8fafc;
+}
+
+.dark-theme .card,
+.dark-theme .payment,
+.dark-theme .demo,
+.dark-theme .contact {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.dark-theme .mission,
+.dark-theme .featured {
+  background: #172554;
+}
+
+.dark-theme input,
+.dark-theme select,
+.dark-theme textarea {
+  background: #0f172a;
+  color: #f8fafc;
+  border-color: #475569;
+}
+
+.dark-theme footer {
+  background: #020617;
+}
