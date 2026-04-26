@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="First Step Web Design builds simple, affordable websites for small businesses."
+    />
+    <title>First Step Web Design</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>First Step Web Design</h1>
+
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">Simple websites for small businesses</p>
+        <h2>Take the first step toward growing your business online.</h2>
+        <p>
+          I create clean, affordable, mobile-friendly websites for small
+          businesses that want to look more professional online. My goal is to
+          make it easy for customers to find you, understand what you offer,
+          trust your business, and take action.
+        </p>
+
+        <a href="#contact" class="btn">Get a Website</a>
+        <p class="small-note">
+          No pressure—just tell me what you need and I’ll help you figure it
+          out.
+        </p>
+        <p class="small-note">
+          Prefer email? You can reach me at: firststepwebdesign@gmail.com
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section id="services" class="section">
+        <h2>What I Build</h2>
+        <p>
+          Websites made for small business owners who want something simple,
+          professional, and easy to manage.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Business Websites</h3>
+            <p>Clean websites that explain who you are and what you offer.</p>
+          </article>
+
+          <article class="card">
+            <h3>Service Pages</h3>
+            <p>Pages that show your services, prices, and important details.</p>
+          </article>
+
+          <article class="card">
+            <h3>Contact Sections</h3>
+            <p>Easy ways for customers to call, message, or email you.</p>
+          </article>
+
+          <article class="card">
+            <h3>Booking & Payment Links</h3>
+            <p>Add buttons for appointments, deposits, or simple payments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="packages" class="section">
+        <h2>Website Packages</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Starter Site</h3>
+            <p class="price">$250</p>
+            <p>A simple one-page website for a clean online presence.</p>
+          </article>
+
+          <article class="card featured">
+            <p class="badge">Most Popular</p>
+            <h3>Standard Site</h3>
+            <p class="price">$400</p>
+            <p>
+              Perfect for most small businesses: home, services, about, and
+              contact.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Premium Site</h3>
+            <p class="price">$600+</p>
+            <p>
+              Includes extra customization, booking links, or payment buttons.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="section payment">
+        <h2>Payment Options</h2>
+        <p>
+          Once we go over your project details, I’ll send a simple payment link
+          for deposits or full payment.
+        </p>
+
+        <a href="#" class="btn">Pay Deposit (Coming Soon)</a>
+      </section>
+      <section id="mission" class="section mission">
+        <p class="eyebrow">My Mission</p>
+        <h2>Helping small businesses take their first step online.</h2>
+        <p>
+          First Step Web Design was created for small business owners who know
+          they need a website but are not sure where to start. Many feel
+          overwhelmed by technology, high prices, or complicated options.
+        </p>
+
+        <p>
+          My mission is to make that first step simple. I build clean,
+          professional websites that help your business look trustworthy,
+          attract customers, and give you a strong online presence without the
+          stress.
+        </p>
+      </section>
+      <section id="demo" class="section demo">
+        <h2>This Site Is the Demo</h2>
+        <p>
+          This website shows the style of clean, simple site I can customize for
+          a local business.
+        </p>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Ready to Take the First Step?</h2>
+        <p>
+          Message me and tell me what kind of business you have. I’ll help you
+          figure out what kind of website makes sense.
+        </p>
+
+        <form
+          name="client-inquiry"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          class="contact-form"
+        >
+          <input type="hidden" name="form-name" value="client-inquiry" />
+          <input type="hidden" name="bot-field" />
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="business">Business Name</label>
+          <input type="text" id="business" name="business" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="service">What do you need?</label>
+          <select id="service" name="service">
+            <option>Starter Site</option>
+            <option>Standard Site</option>
+            <option>Premium Site</option>
+            <option>Website update/maintenance</option>
+            <option>Not sure yet</option>
+          </select>
+
+          <label for="message">Tell me about your business</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn">Send Inquiry</button>
+          <p class="form-note">
+            After you submit, I’ll reach out to you as soon as possible.
+          </p>
+        </form>
+        <a href="#" class="btn secondary">Facebook Page Coming Soon</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 First Step Web Design. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
